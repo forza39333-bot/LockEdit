@@ -13,8 +13,7 @@ jobs:
       - name: Unpack project
         run: |
           mkdir -p extracted
-          unzip LockEdit_Android_Beta_CloudBuild_minSdk24.zip -d extracted
-
+          unzip LockEdit_Android_Beta_CloudBuild_minSdk24_fixed.zip -d extracted
       - uses: actions/setup-java@v4
         with:
           distribution: temurin
